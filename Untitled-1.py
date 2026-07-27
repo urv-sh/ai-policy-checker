@@ -13,3 +13,12 @@ for link in soup.find_all("a"):
     print(f"Total links found: {len(all_links)}") 
     for link in all_links:
      print(repr(link.get_text(strip=True)))
+
+
+#to test
+
+try:
+    element = driver.find_element(By.PARTIAL_LINK_TEXT , "Terms")
+    print("Found!")
+except NoSuchElementException:
+    print("not found")
