@@ -1,0 +1,324 @@
+ajmandata
+```json
+{
+  "classification": "Allowed",
+  "quote": "The open datasets published on the Portal are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0), allowing use, modification, and sharing for any purpose, provided appropriate credit is given.",
+  "explanation": "The policy explicitly permits use, modification, and sharing of open datasets under the CC BY 4.0 license as long as appropriate credit is given to the source. This is a permissive license that allows broad usage rights."
+}
+```
+
+apple
+```json
+{
+  "classification": "Restricted",
+  "quote": "Except as expressly provided in these Terms of Use, no part of the Site and no Content may be copied, reproduced, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted or distributed in any way (including \"mirroring\") to any other computer, server, Web site or other medium for publication or distribution or for any commercial enterprise, without Apple's express prior written consent.",
+  "explanation": "Apple's website terms explicitly prohibit copying, reproducing, or distributing any content from the site without express prior written consent. While limited use of specific downloadable materials for personal, non-commercial purposes is permitted with conditions, general access and use of the website content is restricted to browsing only."
+}
+```
+
+barbie
+```json
+{
+  "classification": "Restricted",
+  "quote": "You agree that you will not: (a) use the Website for any commercial or political purpose (including for purposes of advertising, soliciting funds, collecting product prices, and selling products)",
+  "explanation": "The policy explicitly prohibits commercial use of the website. Users cannot use the platform for advertising, soliciting funds, collecting product prices, or selling products. This is a clear restriction on commercial activities."
+}
+```
+
+bayanat
+```json
+{
+  "classification": "Restricted",
+  "quote": "Unless otherwise stated, all content published on the Bayanat Portal—including text, graphics, interface design, visual elements, code, and logos—is the intellectual property of the relevant UAE government entity and is protected under applicable laws and regulations. These materials may not be copied, reproduced, or distributed without prior written permission.",
+  "explanation": "The policy explicitly states that most content on the portal is protected intellectual property and cannot be copied, reproduced, or distributed without prior written permission. However, there is a separate reference to a 'Copyright and Open Data Licensing' page that may provide different terms for data reuse, suggesting some content may have different permissions, but based on the main terms presented here, the default classification is Restricted."
+}
+```
+
+bbc
+```json
+{
+  "classification": "Restricted",
+  "quote": "Non-commercial use does not include the use of Content, without prior consent from us, in connection with the development, training, fine tuning, or grounding of any software program, model, algorithm, artificial intelligence system, or machine learning or generative artificial intelligence tool.",
+  "explanation": "The policy explicitly prohibits using BBC content for AI/ML training and development without prior consent. This is stated in Section 1 as part of the definition of non-commercial use, and further reinforced in Section 8.a which lists 'Anything taken from our Services to develop or train artificial intelligence or to do computer analysis' as content requiring permission."
+}
+```
+
+bighistory
+```json
+{
+  "classification": "Allowed",
+  "quote": "Big History Project: The Universe, Origin Stories, and The Big Bang... A short, free, self-directed course about everything.",
+  "explanation": "This is an educational website providing free, publicly accessible science content about cosmology and the history of the universe. The material is designed for student learning (grades 6-9 and general audiences), includes open educational resources, and contains no restrictions mentioned in the policy. The content is openly shared through interactive lessons, videos, and certificates."
+}
+```
+
+brave
+```json
+{
+  "classification": "Restricted",
+  "quote": "You shall not (and shall not permit any third party to) take any action (including contributing any Content) that: would constitute a violation of any applicable law, rule or regulation; infringes any intellectual property or other right of any other person or entity; is threatening, abusive, harassing, defamatory, libelous, deceptive, fraudulent, invasive of another's privacy, tortious, obscene, offensive, or profane; constitutes unauthorized or unsolicited advertising, junk or bulk e-mail; contains software viruses or any other similar computer codes, files, or programs; or impersonates any person or entity.",
+  "explanation": "The Terms of Use explicitly restrict user conduct by prohibiting illegal activities, intellectual property infringement, harassment, fraud, privacy violations, and other harmful behaviors. Users must comply with these restrictions as a condition of using Brave's services, with violations resulting in immediate license termination and account forfeiture."
+}
+```
+
+britannica
+```json
+{
+  "classification": "Permission Required",
+  "quote": "You may not use data mining, robots, screen scraping, or similar data gathering and extraction tools on the Services, such as artificial intelligence (\"AI\") for purposes of developing or training AI or conducting computer analysis, except with our express written consent.",
+  "explanation": "The policy explicitly prohibits using AI tools for data mining, training AI models, or computer analysis without express written permission from Britannica. Users must request permission through the syndication form to use content for these purposes."
+}
+```
+
+cnn
+```json
+{
+  "classification": "Restricted",
+  "quote": "You agree not to use any service, technology or automated system to artificially inflate the page views that your User Content receives. This includes pay-per-click services, web \"robots\" and any other current or future technologies including Artificial Intelligence. You also agree not to direct any third party to use these services, technologies or automated systems on your behalf.",
+  "explanation": "CNN's Terms of Use explicitly prohibit using automated systems, AI, or any technology to artificially inflate page views or post more content than a human could manually in a given time period. The policy restricts AI usage for manipulating engagement metrics and automating content posting beyond normal human capability."
+}
+```
+
+cpx
+```json
+{
+  "classification": "Restricted",
+  "quote": "Client hereby expressly agrees that all of the results, and proceeds of the Services of every kind heretofore (the 'IP Materials') rendered by and hereafter to be rendered by or on behalf of CPX, are the sole and exclusive property of Supplier.",
+  "explanation": "The Terms of Use explicitly state that all intellectual property materials created during service delivery belong exclusively to CPX (referred to as 'Supplier'). The client receives only a limited, non-transferable, royalty-free license for internal, non-commercial purposes. This is a restrictive intellectual property policy."
+}
+```
+
+digitaldubai
+```json
+{
+  "classification": "Restricted",
+  "quote": "You agree to access and use the Website for lawful purposes only, and to be fully responsible for your knowledge of and compliance with all laws, regulations, and rules regarding your use of the Website. Just by accessing the Website, you agree not to perform any of the following: Use of the Website for the purpose of committing a crime or encouraging others to engage in any conduct that would lead to committing a crime or involves civil liability. Publishing or posting of any unlawful content that includes discrimination, defamation, libel, slander, obscene material, pornographic material, or any other unlawful topic.",
+  "explanation": "The Terms & Conditions impose significant restrictions on user behavior, explicitly prohibiting numerous activities including unlawful content, impersonation, malicious uploads, intellectual property violations, personal information collection, and harassment. Users must comply with all applicable laws and the organization reserves the right to terminate access without notice for violations."
+}
+```
+
+disney
+```json
+{
+  "classification": "Restricted",
+  "quote": "The Sites are only for your personal use. You may not use the Sites for commercial purposes or in any way that is unlawful, or harms us or any other person or entity, as determined in our sole discretion.",
+  "explanation": "Disney's Terms of Use explicitly state that the sites are for personal use only and commercial purposes are prohibited. Additionally, Section 3 contains a strong warning against distributing unsolicited creative submissions, stating 'DO NOT DISTRIBUTE ANY UNSOLICITED SUBMISSIONS' and explaining that Disney has a long-standing policy of not accepting unsolicited creative ideas or materials."
+}
+```
+
+EU
+```json
+{
+  "classification": "Restricted",
+  "quote": "Unless otherwise indicated (e.g. in individual copyright notices), content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. This means that reuse is allowed, provided appropriate credit is given and changes are indicated. You may be required to clear additional rights if a specific content depicts identifiable private individuals or includes third-party works. To use or reproduce content that is not owned by the EU, you may need to seek permission directly from the rightholders.",
+  "explanation": "The policy allows reuse of EU-owned content under CC BY 4.0 with attribution and indication of changes, but restricts use of content depicting identifiable individuals and third-party works, which requires additional permissions or clearance. Non-EU owned content requires permission from rightholders."
+}
+```
+
+f1.txt
+```json
+{
+  "classification": "Restricted",
+  "quote": "You shall not conduct, facilitate, authorise or permit any text or data mining or web scraping in relation to our Digital Product or any services provided via, or in relation to, our Digital Product for any purpose, including the development, training, fine-tuning or validation of AI systems or models.",
+  "explanation": "The policy explicitly prohibits text and data mining, web scraping, and the use of automated tools to access or extract data from their Digital Products. It specifically forbids using their Digital Products or any data accessible via them for developing, training, fine-tuning or validating AI systems or models. This represents a clear restriction on AI training activities using their content."
+}
+```
+
+fuh
+```json
+{
+  "classification": "Permission Required",
+  "quote": "By registering for, attending, or participating in events, programs, workshops, or activities organized by Fakeeh University Hospital or Fakeeh Health, you acknowledge and agree that photographs, audio recordings, and video recordings may be captured during such events. You grant Fakeeh University Hospital and Fakeeh Health the right to use, reproduce, publish, and distribute these images and recordings for legitimate purposes, including but not limited to marketing, educational materials, website content, publications, official social media platforms, and internal communications, without further notice or compensation.",
+  "explanation": "The policy requires explicit acknowledgment and agreement from individuals before their images, audio, or video recordings can be captured and used. However, the policy also states 'If you do not wish to be photographed, recorded, or receive such communications, you may opt out through the communication channels provided,' which indicates that consent/permission is required but can be withdrawn through opt-out mechanisms."
+}
+```
+
+gettyimages
+```json
+{
+  "classification": "Allowed",
+  "quote": "You may use licensed content in any way consistent with the rights granted below and not restricted (see Restricted Uses below). Subject to those restrictions and the rest of the terms of this agreement, the rights granted to you by Getty Images are: Royalty-Free... Perpetual, meaning there is no expiry or end date on your rights to use the content. Worldwide, meaning content can be used in any geographic territory. Unlimited, meaning content can be used an unlimited number of times. Any and all media, meaning content can be used in print, in digital or in any other medium or format.",
+  "explanation": "Getty Images' policy grants royalty-free licensees perpetual, worldwide, unlimited rights to use content in any and all media. This is the broadest permission level offered, allowing commercial use across all formats without time restrictions, provided the user complies with the specific restricted use categories (unlawful use, editorial content restrictions, standalone file use, etc.)."
+}
+```
+
+github
+```json
+{
+  "classification": "Restricted",
+  "quote": "You agree that you will not under any circumstances violate our Acceptable Use Policies or Community Guidelines.",
+  "explanation": "GitHub's Terms of Service prohibit users from violating their Acceptable Use Policies and Community Guidelines. While the policy document itself doesn't detail every restriction in the main ToS, it explicitly references separate Acceptable Use Policies that govern prohibited content and conduct. Users must comply with these policies, making most potentially problematic activities restricted rather than completely forbidden or allowed without permission."
+}
+```
+
+google
+```json
+{
+  "classification": "Restricted",
+  "quote": "You must not abuse, harm, interfere with or disrupt our services or systems – for example, by: introducing malware, spamming, hacking or bypassing our systems or protective measures, jailbreaking, adversarial prompting or prompt injection, except as part of our safety and bug testing programs, accessing or using our services or content in fraudulent or deceptive ways...",
+  "explanation": "Google's Terms of Service explicitly prohibit adversarial prompting and prompt injection except as part of authorized safety and bug testing programs. This means that unauthorized attempts to manipulate AI systems through adversarial techniques are restricted under their terms of service."
+}
+```
+
+govuk
+```json
+{
+  "classification": "Allowed",
+  "quote": "Most content on GOV.UK is subject to Crown copyright protection and is published under the Open Government Licence (OGL), which also sets out which content is exempt. You can reproduce content published on GOV.UK under the OGL as long as you follow the licence's conditions.",
+  "explanation": "The policy explicitly permits reproduction of GOV.UK content under the Open Government Licence, provided the licence conditions are followed. This is a general allowance for content users, though specific conditions apply depending on the licence terms."
+}
+```
+
+historychannel
+```json
+{
+  "classification": "Restricted",
+  "quote": "You are strictly prohibited from posting or transmitting any unlawful, threatening, harassing, libelous, defamatory, obscene, bigoted, hateful, scandalous, inflammatory, violent, vulgar, pornographic, profane or otherwise offensive material that could constitute or encourage conduct that would be considered a criminal offense, give rise to civil liability, harm or can reasonably be expected to harm any person or entity, or otherwise violate any law.",
+  "explanation": "The policy explicitly restricts users from posting hateful content or material that could harm any person or entity. This restriction applies to interactive features and user submissions on the Sites, with A+E Global Media reserving the right to monitor, edit, or remove such content without notice."
+}
+```
+
+huawei
+```json
+{
+  "classification": "Restricted",
+  "quote": "You shall not reverse engineer, decompile, disassemble, split, adapt, implant, or implement other derivative works on the Software Content; research the internal implementation of Huawei products, obtain product source code, or steal intellectual property rights in any manner; and/or disclose results of any benchmark tests.",
+  "explanation": "The policy explicitly restricts users from reverse engineering, decompiling, disassembling, or creating derivative works of Huawei's software content. It also prohibits researching internal implementations, obtaining source code, and disclosing benchmark test results. These are clear restrictions on what users cannot do with the software and related materials."
+}
+```
+
+insta
+```json
+{
+  "classification": "Permission Required",
+  "quote": "You can't sell, licence or purchase any account or data obtained from us or our Service, regardless of whether such data was obtained while logged in to an Instagram account.",
+  "explanation": "The Terms of Use explicitly prohibit selling, licensing, or purchasing accounts or data from Instagram. However, the document does allow certain uses of data with proper permissions and compliance with policies, such as using Instagram's API under the Meta Platform Terms and Developer Policies. This indicates that data usage is possible but requires explicit permission and adherence to specific terms."
+}
+```
+
+jstor
+```json
+{
+  "classification": "Restricted",
+  "quote": "except as explicitly stated in the Permitted Uses stated above, use Content to train large language models or other generative AI technologies",
+  "explanation": "The policy explicitly prohibits using JSTOR content to train large language models or other generative AI technologies, except for specific permitted uses. This is a clear restriction on AI training activities with the platform's content."
+}
+```
+
+medclinic
+```json
+{
+  "classification": "Restricted",
+  "quote": "A user may only use information retrieved, viewed, downloaded or otherwise obtained by viewing this website, for its own personal and non-commercial use and such information and/or data may not be sold, resold, transmitted or otherwise made available or disseminated in any manner via any media to any third parties unless the prior written consent of Mediclinic has been obtained.",
+  "explanation": "The policy explicitly restricts users from sharing, distributing, or disseminating website content to third parties without prior written consent from Mediclinic. Section 3.4 limits usage to personal, non-commercial purposes only, making most commercial or third-party sharing activities restricted rather than allowed."
+}
+```
+
+microsoft
+```json
+{
+  "classification": "Restricted",
+  "quote": "You may not modify, copy, distribute, transmit, display, perform, reproduce, publish, license, create derivative works from, transfer, or sell any information, software, products or services obtained from the Services.",
+  "explanation": "Microsoft's Terms of Use explicitly prohibits copying, distributing, and creating derivative works from content and services obtained from their website without permission. Users are limited to personal and non-commercial use only. The policy clearly states that all content is the exclusive property of Microsoft or its suppliers and is protected by intellectual property laws."
+}
+```
+
+moetopen
+```json
+{
+  "classification": "Restricted",
+  "quote": "It is strictly prohibited to use this website and its contents for illegal or fraudulent purposes. This website may not be utilised, by any means, to cause damage or to harm its operations. This website may not be utilised for the transfer, dissemination, or distribution of any material that are regarded as unlawful, unethical, indecent or derogatory, in any way.",
+  "explanation": "The Terms of Use explicitly prohibits multiple categories of use including illegal/fraudulent purposes, causing damage, disseminating unlawful material, unauthorized emails, network breach attempts, and hindering service delivery. These broad restrictions indicate that usage is restricted to lawful, authorized purposes only."
+}
+```
+
+natgeo
+```json
+{
+  "classification": "Restricted",
+  "quote": "You agree that you will not nor permit another person to do any of the following without our express written permission, and that these restrictions are a condition to your license: ... (x) access, monitor, copy or extract the Disney Products using a robot, spider, script, or other automated means, including, for the avoidance of doubt, for the purposes of creating or developing any AI Tool, data mining or web scraping or otherwise compiling, building, creating or contributing to any collection of data, data set or database",
+  "explanation": "The policy explicitly prohibits using automated means including scripts, robots, and spiders to access or extract Disney Products. It specifically mentions that this restriction applies to creating or developing AI Tools, data mining, and web scraping. This is a clear restriction on automated access and data extraction activities."
+}
+```
+
+nationalnews
+```json
+{
+  "classification": "Restricted",
+  "quote": "Material on these platforms is solely for your personal, non-commercial use. Such material may not be copied, reproduced, republished, exchanged, modified, uploaded, posted, transmitted, stored or distributed in any way, including by e-mail or other electronic means, without the express prior written consent of The National FZ LLC.",
+  "explanation": "The policy explicitly prohibits copying, reproducing, republishing, or distributing material from the platforms without express prior written consent from The National FZ LLC. While personal, non-commercial use is allowed, any broader use requires explicit permission."
+}
+```
+
+netflix
+```json
+{
+  "classification": "Restricted",
+  "quote": "The Netflix service and any content accessed through it are for your personal, non-commercial use only and may not be shared with anyone outside of your household, unless, in countries where this feature is available, you purchased an Extra Member account.",
+  "explanation": "Netflix's Terms of Use explicitly restrict account sharing to household members only, unless an Extra Member account is purchased. Sharing with users outside the household violates the terms and can result in account termination or restrictions."
+}
+```
+
+nyt_terms.txt
+```json
+{
+  "classification": "Restricted",
+  "quote": "You may not modify, publish, transmit, participate in the transfer or sale of, reproduce (except as provided in Section 2.3 of these Terms of Service), create new works from, distribute, perform, display (including framing and inline linking), communicate to the public or in any way exploit, any of the Content (or its Arrangement) or the Services (including Software) in whole or in part.",
+  "explanation": "The Terms of Service explicitly prohibit using NYT content for developing AI/ML systems. Section 2.1 states that non-commercial use does not include 'training or using the Content in connection with the development or operation of a machine learning or artificial intelligence (AI) system.' Section 4.1(3) further reinforces this restriction. Using this website's content to train AI models is strictly prohibited without prior written permission."
+}
+```
+
+olivia
+```json
+{
+  "classification": "Restricted",
+  "quote": "You may not, without UMG's express written agreement, use, transfer, copy or otherwise reproduce or modify any part of this Webstore, the Services, the Content or any source HTML code in any form or by any means (electronic, mechanical or otherwise) except for the sole purpose of using the Services and viewing or using the Content as permitted.",
+  "explanation": "The policy explicitly restricts reproduction, modification, and transfer of website content and services without express written permission. Users are only permitted to use the webstore for personal, non-commercial purposes as specified in the terms."
+}
+```
+
+openai.txt
+```json
+{
+  "classification": "Restricted",
+  "quote": "You may not use our Services for any illegal, harmful, or abusive activity. For example, you may not: Use our Services in a way that infringes, misappropriates or violates anyone's rights. Modify, copy, lease, sell or distribute any of our Services. Attempt to or assist anyone to reverse engineer, decompile or discover the source code or underlying components of our Services, including our models, algorithms, or systems (except to the extent this restriction is prohibited by applicable law). Automatically or programmatically extract data or Output.",
+  "explanation": "The policy explicitly restricts multiple categories of usage including modifying, copying, leasing, selling, or distributing the Services; reverse engineering; and automatically extracting data. These are clearly prohibited activities under the 'What you cannot do' section."
+}
+```
+
+pinterest
+```json
+{
+  "classification": "Allowed",
+  "quote": "By providing any User Content on the Service, you grant us and our affiliates and service providers, and our users, a non-exclusive, royalty-free, transferable, sublicensable, worldwide licence to use, store, publicly perform or display, reproduce, save, modify, create derivative works, monetise, download, translate and distribute your User Content, including for the purpose of promoting and redistributing part or all of the Pinterest Service.",
+  "explanation": "Pinterest's Terms of Service explicitly grant the platform and its users a broad license to use, modify, and distribute user content. Users retain ownership but grant Pinterest extensive rights to use their content for various purposes including promotion and redistribution."
+}
+```
+
+postman
+```json
+{
+  "classification": "Unclear",
+  "quote": "Loading contract...",
+  "explanation": "The actual Terms of Service content failed to load on the page. Only the navigation menu and page structure are visible, but the substantive policy text that would contain specific usage permissions or restrictions is not displayed. Without access to the full policy content, it is impossible to accurately classify what uses are allowed, restricted, or require permission."
+}
+```
+
+postman2
+```json
+{
+  "classification": "Unclear",
+  "quote": "Loading contract...",
+  "explanation": "The actual AI Terms content failed to load on the page. Only the navigation structure and header are visible, with a 'Loading contract...' message where the policy text should be. Without access to the actual terms content, it is impossible to classify what uses of AI are allowed, restricted, or require permission."
+}
+```
+
+primee
+```json
+{
+  "classification": "Unclear",
+  "quote": "Your Amazon Prime Video service provider, the terms applicable to your use of the Amazon Prime Video services, and your primary website for the Amazon Prime Video service depend on your location, as noted below.",
+  "explanation": "This document is a service provider information and terms reference page that directs users to location-specific terms and policies rather than stating direct allowances or restrictions. The actual permissions and restrictions are contained in separate linked documents (Amazon Prime Video Terms of Use, Usage Rules, Privacy Notice, etc.) that are not fully provided here. Without access to those specific terms documents, it is impossible to definitively classify whether specific activities are allowed, restricted, or require permission."
+}
+```
+

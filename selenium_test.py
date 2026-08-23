@@ -19,7 +19,7 @@ def sel_policy(homepage_surl, sfilename):
     elements = driver.find_elements(By.TAG_NAME , "a")
     print("Found!")
     for value in elements:
-        if value.text.lower() in ["terms of service", "terms", "terms of use", "steam subscriber agreement", "subscriber agreement", "terms & conditions" , "terms and conditions", "legal", "terms and privacy notice"]:
+        if value.text.lower() in ["terms of service", "terms", "terms of use", "steam subscriber agreement", "subscriber agreement", "terms & conditions" , "terms and conditions", "legal", "terms and privacy notice", "licence information", 'legal notice', "terms and conditions of use", "terms of service: consumer"]:
             print(value.text)
             print(value.get_attribute("href"))
             sterm_url  = value.get_attribute("href")
@@ -41,6 +41,33 @@ def sel_policy(homepage_surl, sfilename):
 
     with open(sfilename, "w", encoding='utf-8') as f:
         f.write(pages_text)
+
+    sterm_url2 = None
+    elements2 = driver.find_elements(By.TAG_NAME , "a")
+    print("Found!")
+    for value2 in elements2:
+        if value2.text.lower() in ['user guidelines' , 'video terms', 'amazon prime video terms of use - global', 'ai terms']:
+                print(value2.text)
+                print(value2.get_attribute("href"))
+                sterm_url2  = value2.get_attribute("href")
+    
+    if sterm_url2 is None:
+        print("No url found")
+        return
+    
+    driver.get(sterm_url2)
+    elements3 = driver.find_element(By.TAG_NAME, "p")
+    print(elements3.text)
+    
+    page_sourceterm2 = driver.page_source
+    # print(page_sourceterm)
+    
+    sourceterms_soup2 = BeautifulSoup(page_sourceterm2, "html.parser")
+    pages_text2 = sourceterms_soup2.get_text(separator='\n' , strip=True)
+    # print(len(pages_text))
+    
+    with open(sfilename +"2", "w", encoding='utf-8') as f:
+        f.write(pages_text2)
 
 homepage_surl = input("Enter url: ")
 sfilename = input("Enter file name:" )
