@@ -20,3 +20,4 @@ with open('all_sites_policies.txt', 'w',  encoding='utf-8') as w:
         messages=[{"role": "user", "content": f"Here is a website's policy: {policy_text}\n\nRespond ONLY with valid JSON in this exact format, nothing else before or after: 'classification': ''...', 'quote': ''...', 'explanation': ''...'. The classification value must be exactly one of: Allowed, Restricted, Permission Required, Unclear."}])
         w.write(filename + "\n")
         w.write(message.content[0].text + "\n\n")
+

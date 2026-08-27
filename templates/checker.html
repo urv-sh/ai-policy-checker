@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Complience checker</title>
+    <style>
+        body {background-color: #F4F6F8}
+        h1   {color: #2C3E50}
+        h2    {color: #2C3E50}
+        h3    {color: #2C3E50}
+        p    {color: #1F2A37}
+        input {color: #3B82F6}
+
+    </style>
+
+</head>
+<body>
+    <h1>Welcome to the Complience Checker!</h1>
+    <h2>Here you can check whether or not you are complient with the policy/T&C's of the website when it comes to training your Ai model with their data.</h2>
+    <h3>Please select the website from the dropdown below:</h3>
+
+    <form method="POST" action="/">
+        <label for="Websites">Choose a Site:</label>
+                <select name="Websites" id="Websites">
+                    {% for WB in sites | sort %}
+                    <option value = "{{WB}}"> {{WB}} </option>
+                    {% endfor %}
+                </select>
+                <br>
+            <h3>Enter Scenario:</h3>
+            <label> 
+                <input type= "text" name = "Scenario">
+            </label>
+        <input type="submit" value ="Submit">
+    </form>
+
+   
+    {% if result %}
+        {% if result.classification == "Invalid Scenario" %}
+            <p>classfication: </p> {{result.classification}}
+        {% elif result.classification == "Parsing Error" %}
+            <p>classification: </p> {{result.classification}}
+            <p>Explanation: </p> {{result.explanation}}
+        {% else %}
+            <p>Classification: </p> {{result.classification}}
+            <p>Quote: </p> {{result.quote}}
+            <p>Explanation: </p> {{result.explanation}}
+        {% endif %}
+    {% endif %}
+
+</body>
+</html>

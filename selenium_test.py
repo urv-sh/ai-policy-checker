@@ -1,4 +1,3 @@
-
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -19,7 +18,7 @@ def sel_policy(homepage_surl, sfilename):
     elements = driver.find_elements(By.TAG_NAME , "a")
     print("Found!")
     for value in elements:
-        if value.text.lower() in ["terms of service", "terms", "terms of use", "steam subscriber agreement", "subscriber agreement", "terms & conditions" , "terms and conditions", "legal", "terms and privacy notice", "licence information", 'legal notice', "terms and conditions of use", "terms of service: consumer"]:
+        if value.text.strip().lower() in ["terms of service", "terms", "terms of use", "steam subscriber agreement", "subscriber agreement", "terms & conditions" , "terms and conditions", "legal", "terms and privacy notice", "licence information", "terms and conditions of use", "terms of service: consumer" , 'ts&cs', 'legal notice']:
             print(value.text)
             print(value.get_attribute("href"))
             sterm_url  = value.get_attribute("href")
@@ -46,7 +45,7 @@ def sel_policy(homepage_surl, sfilename):
     elements2 = driver.find_elements(By.TAG_NAME , "a")
     print("Found!")
     for value2 in elements2:
-        if value2.text.lower() in ['user guidelines' , 'video terms', 'amazon prime video terms of use - global', 'ai terms']:
+        if value2.text.lower() in ['user guidelines' , 'video terms', 'amazon prime video terms of use - global', 'ai terms' , 'legal notice', 'copyright' ]:
                 print(value2.text)
                 print(value2.get_attribute("href"))
                 sterm_url2  = value2.get_attribute("href")
@@ -73,7 +72,6 @@ homepage_surl = input("Enter url: ")
 sfilename = input("Enter file name:" )
 sel_policy(homepage_surl,sfilename)
 
-
 input()
-driver.quit()
+
 

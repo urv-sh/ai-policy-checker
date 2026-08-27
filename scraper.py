@@ -16,7 +16,7 @@ def scraper_policy(homepage_url, filename):
 
     for link in soup.find_all("a"): 
         link_text = link.get_text(strip=True)
-        if link_text.lower() in ["terms of service", "terms", "terms of use", "steam subscriber agreement", "subscriber agreement", "terms & conditions" , "terms and conditions","privacy policy"]:  
+        if link_text.lower() in ['ts&cs',"terms of service", "terms", "terms of use", "steam subscriber agreement", "subscriber agreement", "terms & conditions" , "terms and conditions","privacy policy"]:  
             print(link.get("href"))
             terms_url = link.get("href")
 
