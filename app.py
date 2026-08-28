@@ -12,7 +12,7 @@ client = Anthropic(api_key=api_key)
 
 @app.route("/"  , methods=["GET","POST"])
 def home():
-    parsed_data = {}
+    parsed_data = {}    
     site_names = set()
     for filename in os.listdir("C:/Users/Urvashi/Desktop/ai-policy-checker/Policies/"):
         if filename.endswith("2"):
