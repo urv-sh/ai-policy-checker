@@ -1,4 +1,6 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template
+from flask import request
+import requests
 import os
 from anthropic import Anthropic
 import json
@@ -69,11 +71,21 @@ def home():
 
         try:
             parsed_data = json.loads(ptext)
-            if not os.path.exists("evaluation_log.csv"):
-                with open("evaluation_log.csv", 'w') as w:
-                    csv.writer(w).writerow(["timestamp", "site", "scenario" , "classification", "quote", "explanation"])
-            with open("evaluation_log.csv", 'a') as a:
-                csv.writer(a).writerow([str(datetime.now()), selected_site , scenario, parsed_data["classification"] , parsed_data["quote"], parsed_data["explanation"]])
+            form_url = "https://docs.google.com/forms/d/e/1FAIpQLScZf-v_vKz4NkHcgRedYEFgf7WMApnsQdsL0zuHZ4ZECBzgOg/formResponse"
+            form_data = {
+                    "entry.891702206": selected_site,
+                    "entry.1943224188": scenario,
+                    "entry.1949090489": parsed_data["classification"],
+                    "entry.1107915020": parsed_data["quote"],
+                    "entry.202762862": parsed_data["explanation"]
+            }
+
+            try:
+                response = requests.post(form_url , data = form_data)
+                print("Form submit status:", response.status_code)
+            except Exception as e:
+                print("Error:", e)
+
         except json.JSONDecodeError:
             parsed_data = {"classification": "Parsing Error", "quote": "", "explanation": "Could not parse the model's response."}
 

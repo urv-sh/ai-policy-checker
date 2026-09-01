@@ -20,3 +20,10 @@ try:
     print("Found!")
 except NoSuchElementException:
     print("not found")
+
+    if not os.path.exists("evaluation_log.csv"):
+                    with open("evaluation_log.csv", 'w') as w:
+                        csv.writer(w).writerow(["timestamp", "site", "scenario" , "classification", "quote", "explanation"])
+                with open("evaluation_log.csv", 'a') as a:
+                    csv.writer(a).writerow([str(datetime.now()), selected_site , scenario, parsed_data["classification"] , parsed_data["quote"], parsed_data["explanation"]])
+            except json.JSONDecodeError:
