@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Complience checker</title>
+    <title>Compliance checker</title>
     <style>
         body {
             background-color: #F4f6f8;
@@ -37,7 +37,7 @@
             cursor: pointer;
         }
 
-        input[type="submit"] hover {
+        input[type="submit"]:hover {
             background-color: #2563eb
         }
 
@@ -62,8 +62,8 @@
 
 </head>
 <body>
-    <h1>Welcome to the Complience Checker!</h1>
-    <h2>Here you can check whether or not you are complient with the policy/T&C's of the website when it comes to training your Ai model with their data.</h2>
+    <h1>Welcome to the Compliance Checker!</h1>
+    <h2>Here you can check whether or not you are compliant with the policy/T&C's of the website when it comes to training your Ai model with their data.</h2>
     <h3>Please select the website from the dropdown below:</h3>
 
     <form method="POST" action="/">
@@ -79,6 +79,15 @@
                 <input type= "text" name = "Scenario">
             </label>
         <input type="submit" value ="Submit">
+
+         <p style="font-size: 0.85em; color: #6B7280; margin-top: 8px; margin-bottom: 4px;">Example scenarios:</p>
+        <ol style="font-size: 0.85em; color: #6B7280; margin-top: 0; padding-left: 20px;">
+            <li>Can I use this site's articles to train my AI model?</li>
+            <li>Using their photos to train an image recognition tool</li>
+            <li>Can I use user reviews to train a chatbot?</li>
+            <li>Using their code to train a coding assistant</li>
+            <li>Can I use their product descriptions to train my AI?</li>
+        </ol>
     </form>
 
     {% if result %}
@@ -99,8 +108,10 @@
                 {{ result.classification}}
             </span>
         </p>
+        <p> Site: {{ site_choose }}</p>
+        <p> Scenario: {{ user_scenario }}</p>
         <p> Quote: {{ result.quote }}</p>
-        <p> Explanation: {{result.explanation }}</p>
+        <p> Explanation: {{ result.explanation }}</p>
         {% endif %}
     </div>
     {% endif %}

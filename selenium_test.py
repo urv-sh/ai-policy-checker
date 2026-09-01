@@ -2,6 +2,9 @@ from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from bs4 import BeautifulSoup
+from selenium.webdriver.support.ui import WebDriverWait 
+from selenium.webdriver.support import expected_conditions as EC
+
 # driver = webdriver.Edge()
 # driver.get("https://edition.cnn.com/")
 # page_source = driver.page_source
@@ -10,7 +13,7 @@ from bs4 import BeautifulSoup
 
 def sel_policy(homepage_surl, sfilename):
     driver = webdriver.Edge()
-    driver.implicitly_wait(10)
+    driver.implicitly_wait(30)
     driver.get(homepage_surl)
     title = driver.title
     print(title)
@@ -30,6 +33,9 @@ def sel_policy(homepage_surl, sfilename):
     driver.get(sterm_url)
     elements1 = driver.find_element(By.TAG_NAME, "p")
     print(elements1.text)
+
+    wait = WebDriverWait(driver, timeout= 15)
+    wait.until(EC.invisibility_of_element_located((By.XPATH, "//p[contains(text(), 'Loading contract')]")))
 
     page_sourceterm = driver.page_source
     # print(page_sourceterm)
@@ -57,6 +63,9 @@ def sel_policy(homepage_surl, sfilename):
     driver.get(sterm_url2)
     elements3 = driver.find_element(By.TAG_NAME, "p")
     print(elements3.text)
+
+    wait = WebDriverWait(driver, timeout= 15)
+    wait.until(EC.invisibility_of_element_located((By.XPATH, "//p[contains(text(), 'Loading contract')]")))
     
     page_sourceterm2 = driver.page_source
     # print(page_sourceterm)
