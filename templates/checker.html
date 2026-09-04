@@ -58,6 +58,13 @@
          .classification-permission-required {color: #d97706;}
          .classification-unclear {color: #6b7280;}
          .classification-special {color: #9333ea}
+
+        .highlighted-quote {
+                background-color: #fef08a;
+                padding: 2px 4px;
+                border-radius: 3px;
+        }
+
     </style>
 
 </head>
@@ -94,9 +101,14 @@
     <div class = "result-card">
         {% if result.classification == "Invalid Scenario" %}
             <p> Classification: <span class = "classification classification-special"> {{ result.classification }} </span></p>
+            <p> Site: {{ site_choose }}</p>
+            <p> Scenario: {{ user_scenario }}</p>
+            <p> Explanation: {{ result.explanation }}</p>
          {% elif result.classification == "Parsing Error" %}
             <p> Classification: <span class = "classification classification-special"> {{ result.classification }} </span></p>
-            <p> Explanation: {{ result.explanation }} </p>
+            <p> Site: {{ site_choose }}</p>
+            <p> Scenario: {{ user_scenario }}</p>
+            <p> Explanation: {{ result.explanation }}</p>
         {% else %}
         <p>Classification:
             <span class = "classification 
@@ -105,12 +117,13 @@
                 {% elif result.classification == 'Permission Required' %} classification-permission-required
                 {% elif result.classification == 'Unclear' %} classification-unclear
                 {% endif %}">   
-                {{ result.classification}}
+                {{ result.classification }}
             </span>
         </p>
+        {% set quote_parts = result.quote.split('|') %}
         <p> Site: {{ site_choose }}</p>
         <p> Scenario: {{ user_scenario }}</p>
-        <p> Quote: {{ result.quote }}</p>
+        <p>  Quote: {{ quote_parts[0] }} <span class="highlighted-quote">{{ quote_parts[1] }}</span> {{ quote_parts[2] }} </p>
         <p> Explanation: {{ result.explanation }}</p>
         {% endif %}
     </div>
