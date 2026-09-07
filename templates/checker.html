@@ -70,7 +70,7 @@
 </head>
 <body>
     <h1>Welcome to the Compliance Checker!</h1>
-    <h2>Here you can check whether or not you are compliant with the policy/T&C's of the website when it comes to training your Ai model with their data.</h2>
+    <h2>Here you can check whether or not you are compliant with the policy/T&C's of the website when it comes to training your AI model with their data.</h2>
     <h3>Please select the website from the dropdown below:</h3>
 
     <form method="POST" action="/">
@@ -94,6 +94,7 @@
             <li>Can I use user reviews to train a chatbot?</li>
             <li>Using their code to train a coding assistant</li>
             <li>Can I use their product descriptions to train my AI?</li>
+            <p>Classifications: Allowed, Restricted, Permission Required, Unclear</p>
         </ol>
     </form>
 
@@ -120,14 +121,15 @@
                 {{ result.classification }}
             </span>
         </p>
-        {% set quote_parts = result.quote.split('|') %}
         <p> Site: {{ site_choose }}</p>
         <p> Scenario: {{ user_scenario }}</p>
-        <p>  Quote: {{ quote_parts[0] }} <span class="highlighted-quote">{{ quote_parts[1] }}</span> {{ quote_parts[2] }} </p>
-        <p> Explanation: {{ result.explanation }}</p>
+        <p> Quote: <span class="highlighted-quote">{{ result.quote }}</span></p>      
+         <p> Explanation: {{ result.explanation }}</p>
         {% endif %}
     </div>
     {% endif %}
 
    
 </html>
+
+
